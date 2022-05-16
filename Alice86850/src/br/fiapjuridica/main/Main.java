@@ -10,8 +10,7 @@ import br.fiapjuridica.processo.Processo;
 public class Main {
 
 	public static void main(String[] args) {
-		Defensoria[] defen = new Defensoria[2];
-		
+		Defensoria[] defen = new Defensoria[2];		
 		
 		int p1 = parseInt(showInputDialog("Código: "));
 		p1 += parseInt(showInputDialog("Data de abertura: "));
