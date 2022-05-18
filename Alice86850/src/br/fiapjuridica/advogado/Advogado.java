@@ -1,7 +1,6 @@
 package br.fiapjuridica.advogado;
 
-public class Advogado {
-	
+public class Advogado {	
 	private int matricula;
 	private String nome;
 	private String area;
@@ -23,7 +22,7 @@ public class Advogado {
 		String aux = "";
 		aux += "Matricula: " + matricula + "\n";
 		aux += "Nome: " + nome + "\n";
-		aux += "Area " + area;
+		aux += "Area " + area + "\n";
 		return aux;
 	}
 
