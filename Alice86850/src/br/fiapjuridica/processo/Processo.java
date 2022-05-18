@@ -17,14 +17,6 @@ public class Processo {
 		this.nomeDoCliente = nomeDoCliente;
 		this.advogado = advodado;
 	}	
-	
-	public Processo(int codigo2, String dataAbertura2, String nomeDoCliente2, String string) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Processo(Object object, Object dataAbertura2, Object nomeDoCliente2, Object advodado) {
-		// TODO Auto-generated constructor stub
-	}
 
 	public String getDados() {
 		String aux = "";
@@ -32,8 +24,7 @@ public class Processo {
 		aux += "Data de abertura: " + dataAbertura + "\n";
 		aux += "Data de encerramento: " + dataEncerramento + "\n";
 		aux += "Nome: " + nomeDoCliente + "\n";
-		aux += "Dados advogado: " + advogado.getArea();
-		aux += "Dados advogado: " + advogado.getMatricula();
+		aux += advogado.getDados() + "\n";
 		return aux;
 	}
 
